@@ -1,0 +1,18 @@
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.csprojAssemblyReference.cache
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.AssemblyInfoInputs.cache
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.AssemblyInfo.cs
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.csproj.CoreCompileInputs.cache
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\bin\Debug\netcoreapp3.1\Museum.Data.deps.json
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\bin\Debug\netcoreapp3.1\Museum.Data.dll
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\bin\Debug\netcoreapp3.1\Museum.Data.pdb
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.dll
+D:\Cetvrta Godina\Internet Prtogramiranje\Museum\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.pdb
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\bin\Debug\netcoreapp3.1\Museum.Data.deps.json
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\bin\Debug\netcoreapp3.1\Museum.Data.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\bin\Debug\netcoreapp3.1\Museum.Data.pdb
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.csprojAssemblyReference.cache
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.AssemblyInfoInputs.cache
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.AssemblyInfo.cs
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.csproj.CoreCompileInputs.cache
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Data\obj\Debug\netcoreapp3.1\Museum.Data.pdb
