@@ -20,11 +20,11 @@ namespace Museum.API.Controllers
     {
         private readonly IExhabitService _exhabitService;
 
-        private readonly ILogger<ExhabitController> _logger;
+        //private readonly ILogger<ExhabitController> _logger;
 
-        public ExhabitController(ILogger<ExhabitController> logger, IExhabitService exhabitService)
+        public ExhabitController( IExhabitService exhabitService)
         {
-            _logger = logger;
+            //_logger = logger;
             _exhabitService = exhabitService;
         }
 
@@ -221,7 +221,7 @@ namespace Museum.API.Controllers
             {
                 ErrorResponseModel errorResponseModel = new ErrorResponseModel
                 {
-                    ErrorMessage = "Eksponat se izlaze na sledecoj izlozbi",
+                    ErrorMessage = "Eksponat ne postoji.",
                     StatusCode = System.Net.HttpStatusCode.BadRequest
                 };
                 return BadRequest(errorResponseModel);

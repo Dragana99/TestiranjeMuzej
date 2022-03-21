@@ -34,6 +34,8 @@
         public const string EXHIBITIONS_CREATION_ERROR = "Doslo je do greske prilikom kreiranja nove izlozbe. Molimo vas da pokusate kasnije.";
         public const string EXHIBITIONS_AT_SAME_TIME = "Nije moguce kreirati izlozbu jer izlozba pod istim imenom vec postoji.";
         public const string EXHIBITIONS_IN_PAST = "Vreme otvaranja izlozbe ne moze da bude u proslosti";
+        public const string EXHIBITION_DOES_NOT_EXIST = "Izlozba ne postoji.";
+        public const string EXHIBITION_CREATION_ERROR = "Error occured while creating new exhibition, please try again.";
         public const string EXHIBITIONS_CAN_NOT_BE_DELETED_BECAUSE_TICKET_EXIST = "Nije moguce obrisati izlozbu jer ulaznice za izlozbu su vec kupljene.";
         #endregion
 

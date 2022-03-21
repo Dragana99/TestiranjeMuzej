@@ -15,11 +15,11 @@ namespace Museum.API.Controllers
     //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
-    public class ExhibitionController : ControllerBase
+    public class ExhibitController : ControllerBase
     {
         private readonly IExhibitionService _exhibitionService;
 
-        public ExhibitionController(IExhibitionService exhibitionService)
+        public ExhibitController(IExhibitionService exhibitionService)
         {
             _exhibitionService = exhibitionService;
         }

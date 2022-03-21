@@ -58,21 +58,21 @@ namespace Museum.Tests.ControllersTest
             var expectedResoultCount = 1;
             var expectedStatusCode = 200;
             var museumsList = new List<MuseumDomainModel>() { _museumDomainModel };
-            Task<IEnumerable<MuseumDomainModel>> cinemasCollection = Task.FromResult((IEnumerable<MuseumDomainModel>)museumsList);
+            Task<IEnumerable<MuseumDomainModel>> museumsCollection = Task.FromResult((IEnumerable<MuseumDomainModel>)museumsList);
 
             //Act
-            _mockMuseumService.Setup(x => x.GetAllAsync()).Returns(cinemasCollection);
+            _mockMuseumService.Setup(x => x.GetAllAsync()).Returns(museumsCollection);
             var resultAction = museumsController.GetAsync().ConfigureAwait(false).GetAwaiter().GetResult().Result;
             var resultList = ((OkObjectResult)resultAction).Value;
-            var cinemasDomainModelsResult = (List<MuseumDomainModel>)resultList;
+            var musuemDomainModelsResult = (List<MuseumDomainModel>)resultList;
 
             //Assert
-            Assert.IsNotNull(cinemasDomainModelsResult);
-            Assert.AreEqual(expectedResoultCount, cinemasDomainModelsResult.Count);
-            Assert.AreEqual(_museumDomainModel.Id, cinemasDomainModelsResult[0].Id);
-            Assert.AreEqual(_museumDomainModel.Name, cinemasDomainModelsResult[0].Name);
-            Assert.IsInstanceOfType(cinemasDomainModelsResult[0], typeof(MuseumDomainModel));
-            Assert.IsInstanceOfType(cinemasDomainModelsResult, typeof(List<MuseumDomainModel>));
+            Assert.IsNotNull(musuemDomainModelsResult);
+            Assert.AreEqual(expectedResoultCount, musuemDomainModelsResult.Count);
+            Assert.AreEqual(_museumDomainModel.Id, musuemDomainModelsResult[0].Id);
+            Assert.AreEqual(_museumDomainModel.Name, musuemDomainModelsResult[0].Name);
+            Assert.IsInstanceOfType(musuemDomainModelsResult[0], typeof(MuseumDomainModel));
+            Assert.IsInstanceOfType(musuemDomainModelsResult, typeof(List<MuseumDomainModel>));
             Assert.IsInstanceOfType(resultAction, typeof(OkObjectResult));
             Assert.AreEqual(expectedStatusCode, ((OkObjectResult)resultAction).StatusCode);
         }
@@ -85,10 +85,10 @@ namespace Museum.Tests.ControllersTest
             var expectedResoultCount = 0;
             var expectedStatusCode = 200;
             List<MuseumDomainModel> museumsList = null;
-            Task<IEnumerable<MuseumDomainModel>> cinemasCollection = Task.FromResult((IEnumerable<MuseumDomainModel>)museumsList);
+            Task<IEnumerable<MuseumDomainModel>> museumsCollection = Task.FromResult((IEnumerable<MuseumDomainModel>)museumsList);
 
             //Act
-            _mockMuseumService.Setup(x => x.GetAllAsync()).Returns(cinemasCollection);
+            _mockMuseumService.Setup(x => x.GetAllAsync()).Returns(museumsCollection);
             var resultAction = museumsController.GetAsync().ConfigureAwait(false).GetAwaiter().GetResult().Result;
             var resultList = ((OkObjectResult)resultAction).Value;
             var cinemasDomainModelsResult = (List<MuseumDomainModel>)resultList;
@@ -113,13 +113,13 @@ namespace Museum.Tests.ControllersTest
             _mockMuseumService.Setup(x => x.GetMuseumByIdAsync(It.IsAny<int>())).Returns(cinema);
             var resultAction = museumsController.GetByIdAsync(It.IsAny<int>()).ConfigureAwait(false).GetAwaiter().GetResult().Result;
             var resultList = ((OkObjectResult)resultAction).Value;
-            var cinemasDomainModelResult = (MuseumDomainModel)resultList;
+            var museumsDomainModelResult = (MuseumDomainModel)resultList;
 
             //Assert
-            Assert.IsNotNull(cinemasDomainModelResult);
-            Assert.AreEqual(_museumDomainModel.Id, cinemasDomainModelResult.Id);
-            Assert.AreEqual(_museumDomainModel.Name, cinemasDomainModelResult.Name);
-            Assert.IsInstanceOfType(cinemasDomainModelResult, typeof(MuseumDomainModel));
+            Assert.IsNotNull(museumsDomainModelResult);
+            Assert.AreEqual(_museumDomainModel.Id, museumsDomainModelResult.Id);
+            Assert.AreEqual(_museumDomainModel.Name, museumsDomainModelResult.Name);
+            Assert.IsInstanceOfType(museumsDomainModelResult, typeof(MuseumDomainModel));
             Assert.IsInstanceOfType(resultAction, typeof(OkObjectResult));
             Assert.AreEqual(expectedStatusCode, ((OkObjectResult)resultAction).StatusCode);
         }
@@ -131,10 +131,10 @@ namespace Museum.Tests.ControllersTest
             museumsController = new MuseumsController(_mockMuseumService.Object);
             var expectedStatusCode = 404;
             var expectedMessage = Messages.MUSEUM_DOES_NOT_EXIST;
-            Task<MuseumDomainModel> cinema = Task.FromResult((MuseumDomainModel)null);
+            Task<MuseumDomainModel> museum = Task.FromResult((MuseumDomainModel)null);
 
             //Act
-            _mockMuseumService.Setup(x => x.GetMuseumByIdAsync(It.IsAny<int>())).Returns(cinema);
+            _mockMuseumService.Setup(x => x.GetMuseumByIdAsync(It.IsAny<int>())).Returns(museum);
             var resultAction = museumsController.GetByIdAsync(It.IsAny<int>()).ConfigureAwait(false).GetAwaiter().GetResult().Result;
             var result = ((NotFoundObjectResult)resultAction).Value;
             var errorMessage = (string)result;
@@ -151,10 +151,10 @@ namespace Museum.Tests.ControllersTest
             //Arrange
             museumsController = new MuseumsController(_mockMuseumService.Object);
             var expectedStatusCode = 202;
-            Task<MuseumDomainModel> cinema = Task.FromResult((MuseumDomainModel)_museumDomainModel);
+            Task<MuseumDomainModel> museum = Task.FromResult((MuseumDomainModel)_museumDomainModel);
 
             //Act
-            _mockMuseumService.Setup(x => x.DeleteMuseum(It.IsAny<int>())).Returns(cinema);
+            _mockMuseumService.Setup(x => x.DeleteMuseum(It.IsAny<int>())).Returns(museum);
             var resultAction = museumsController.Delete(It.IsAny<int>()).ConfigureAwait(false).GetAwaiter().GetResult();
             var result = ((AcceptedResult)resultAction).Value;
             var model = (MuseumDomainModel)result;
@@ -174,10 +174,10 @@ namespace Museum.Tests.ControllersTest
             museumsController = new MuseumsController(_mockMuseumService.Object);
             var expectedStatusCode = 500;
             var expectedMessage = Messages.MUSEUM_DOES_NOT_EXIST;
-            Task<MuseumDomainModel> cinema = Task.FromResult((MuseumDomainModel)null);
+            Task<MuseumDomainModel> museum = Task.FromResult((MuseumDomainModel)null);
 
             //Act
-            _mockMuseumService.Setup(x => x.DeleteMuseum(It.IsAny<int>())).Returns(cinema);
+            _mockMuseumService.Setup(x => x.DeleteMuseum(It.IsAny<int>())).Returns(museum);
             var resultAction = museumsController.Delete(It.IsAny<int>()).ConfigureAwait(false).GetAwaiter().GetResult();
             var result = ((ObjectResult)resultAction).Value;
             var errorMessage = (ErrorResponseModel)result;
@@ -275,12 +275,12 @@ namespace Museum.Tests.ControllersTest
             _mockMuseumService.Setup(x => x.AddMuseum(It.IsAny<MuseumDomainModel>())).Returns(model);
             var resultAction = museumsController.Post(museumModel).ConfigureAwait(false).GetAwaiter().GetResult();
             var result = ((CreatedResult)resultAction).Value;
-            var createdCinemaModel = (MuseumDomainModel)result;
+            var createdMuseumModel = (MuseumDomainModel)result;
 
             //Assert
             Assert.IsInstanceOfType(resultAction, typeof(CreatedResult));
-            Assert.AreEqual(_museumDomainModel.Id, createdCinemaModel.Id);
-            Assert.AreEqual(_museumDomainModel.Name, createdCinemaModel.Name);
+            Assert.AreEqual(_museumDomainModel.Id, createdMuseumModel.Id);
+            Assert.AreEqual(_museumDomainModel.Name, createdMuseumModel.Name);
             Assert.AreEqual(expectedStatusCode, ((CreatedResult)resultAction).StatusCode);
         }
 
@@ -377,10 +377,10 @@ namespace Museum.Tests.ControllersTest
             museumsController = new MuseumsController(_mockMuseumService.Object);
             var expectedStatusCode = 400;
             var expectedMessage = Messages.MUSEUM_DOES_NOT_EXIST;
-            Task<MuseumDomainModel> cinema = Task.FromResult((MuseumDomainModel)null);
+            Task<MuseumDomainModel> museum = Task.FromResult((MuseumDomainModel)null);
 
             //Act
-            _mockMuseumService.Setup(x => x.GetMuseumByIdAsync(It.IsAny<int>())).Returns(cinema);
+            _mockMuseumService.Setup(x => x.GetMuseumByIdAsync(It.IsAny<int>())).Returns(museum);
             var resultAction = museumsController.Put(It.IsAny<int>(), new CreateMuseumModel() { Name = "Novi Muzej" }).ConfigureAwait(false).GetAwaiter().GetResult();
             var result = ((BadRequestObjectResult)resultAction).Value;
             var errorResponseModel = (ErrorResponseModel)result;
@@ -402,7 +402,6 @@ namespace Museum.Tests.ControllersTest
             Exception exception = new Exception(Messages.MUSEUM_DOES_NOT_EXIST);
             DbUpdateException dbUpdateException = new DbUpdateException("Error.", exception);
 
-            //ActMuseumByIdAsync(It.IsAny<int>())).Returns(cinema);
             _mockMuseumService.Setup(x => x.UpdateMuseum(It.IsAny<MuseumDomainModel>())).Throws(dbUpdateException);
             var resultAction = museumsController.Put(It.IsAny<int>(), new CreateMuseumModel() { Name = "Novi Muzej" }).ConfigureAwait(false).GetAwaiter().GetResult();
             var result = ((BadRequestObjectResult)resultAction).Value;
