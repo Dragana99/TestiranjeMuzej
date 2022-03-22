@@ -440,3 +440,13 @@ D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\Microsof
 D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
 D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Utilities.dll
 D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\nunit.framework.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\nunit.engine.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\NMemory.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+D:\Cetvrta Godina\TestiranjeGithub\Museum.Tests\bin\Debug\netcoreapp3.1\WebDriver.dll

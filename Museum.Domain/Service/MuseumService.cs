@@ -14,6 +14,10 @@ namespace Museum.Domain.Service
     {
         private readonly IMuseumsRepository _museumsRepository;
         private readonly IAuditoriumService _auditoriumService;
+        public MuseumService(IMuseumsRepository museumsRepo)
+        {
+            _museumsRepository = museumsRepo;
+        }
         public MuseumService(IMuseumsRepository museumsRepository, IAuditoriumService auditoriumService)
         {
             _museumsRepository = museumsRepository;
