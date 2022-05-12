@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nZYLYpg4MQqGtOJvs5Kz84BaVM+Q+sBR3WrtzmriHRXdFdcq2RlCYmMoslYO7aKDgG9LbraRAORZr+w3oqfTaQ==",
+  "dgSpecHash": "DBQaUoOHakW1kj1aBFDP8yybI9mEDB59m0WOE34gx7mekzmTQ9YfZwmYt4/z2mVF0kJyxIcyzYqjYyZPABGxlQ==",
   "success": true,
-  "projectFilePath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj",
+  "projectFilePath": "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.0.0\\microsoft.entityframeworkcore.abstractions.3.0.0.nupkg.sha512",

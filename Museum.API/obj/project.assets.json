@@ -10015,11 +10015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj",
+      "projectUniqueName": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj",
       "projectName": "Museum.API",
-      "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj",
+      "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\obj\\",
+      "outputPath": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10040,8 +10040,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj": {
-              "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj"
+            "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj": {
+              "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj"
             }
           }
         }

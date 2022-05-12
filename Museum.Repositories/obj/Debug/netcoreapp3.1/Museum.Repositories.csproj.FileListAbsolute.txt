@@ -22,3 +22,15 @@ D:\Cetvrta Godina\TestiranjeGithub\Museum.Repositories\obj\Debug\netcoreapp3.1\M
 D:\Cetvrta Godina\TestiranjeGithub\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.csproj.CopyComplete
 D:\Cetvrta Godina\TestiranjeGithub\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.dll
 D:\Cetvrta Godina\TestiranjeGithub\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.pdb
+D:\Cetvrta Godina\IP Back\Museum.Repositories\bin\Debug\netcoreapp3.1\Museum.Repositories.deps.json
+D:\Cetvrta Godina\IP Back\Museum.Repositories\bin\Debug\netcoreapp3.1\Museum.Repositories.dll
+D:\Cetvrta Godina\IP Back\Museum.Repositories\bin\Debug\netcoreapp3.1\Museum.Repositories.pdb
+D:\Cetvrta Godina\IP Back\Museum.Repositories\bin\Debug\netcoreapp3.1\Museum.Data.dll
+D:\Cetvrta Godina\IP Back\Museum.Repositories\bin\Debug\netcoreapp3.1\Museum.Data.pdb
+D:\Cetvrta Godina\IP Back\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.csprojAssemblyReference.cache
+D:\Cetvrta Godina\IP Back\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.AssemblyInfoInputs.cache
+D:\Cetvrta Godina\IP Back\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.AssemblyInfo.cs
+D:\Cetvrta Godina\IP Back\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.csproj.CoreCompileInputs.cache
+D:\Cetvrta Godina\IP Back\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.csproj.CopyComplete
+D:\Cetvrta Godina\IP Back\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.dll
+D:\Cetvrta Godina\IP Back\Museum.Repositories\obj\Debug\netcoreapp3.1\Museum.Repositories.pdb

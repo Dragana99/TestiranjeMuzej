@@ -172,38 +172,26 @@ namespace Museum.Domain.Service
             };
         }
 
-        public async Task<ResponseModel<ExhibitionDomainModel>> Update(ExhibitionDomainModel exhibitionDomainModel)
+        public async Task<ResponseModel<ExhibitionDomainModel>> Update(ExhibitionDomainModel updateExhibition)
         {
-            int exhibitionTime = 6;
 
-            var exhibitionsAtSameTime = _exhibitionsRepository.GetByAuditoriumId(exhibitionDomainModel.AuditoriumId)
-                .Where(x => x.Opening < exhibitionDomainModel.Opening.AddHours(exhibitionTime) && x.Opening > exhibitionDomainModel.Opening.AddHours(-exhibitionTime))
-                .ToList();
+            var data = await _exhibitionsRepository.GetByIdAsync(updateExhibition.Id);
 
-            if (exhibitionsAtSameTime != null && exhibitionsAtSameTime.Count > 0)
+            ExhibitionEntity exhibition = new ExhibitionEntity
             {
-                return new ResponseModel<ExhibitionDomainModel>()
-                {
-                    IsSuccessful = false,
-                    ErrorMessage = Messages.EXHIBITIONS_AT_SAME_TIME,
-                    DomainModel = null
-                };
-            }
-
-            ExhibitionEntity exhibition = new ExhibitionEntity()
-            {
-                Id = exhibitionDomainModel.Id,
-                AuditoriumId = exhibitionDomainModel.AuditoriumId,
-                ExhabitId = exhibitionDomainModel.ExhabitId,
-                Opening = exhibitionDomainModel.Opening,
-                Name = exhibitionDomainModel.Name,
-                Description = exhibitionDomainModel.Description,
-                Image = exhibitionDomainModel.Image,
+                Id = updateExhibition.Id,
+                AuditoriumId = updateExhibition.AuditoriumId,
+                ExhabitId = updateExhibition.ExhabitId,
+                Opening = updateExhibition.Opening,
+                Name = updateExhibition.Name,
+                Description = updateExhibition.Description,
+                Image = updateExhibition.Image
             };
 
-            var data = _exhibitionsRepository.Update(exhibition);
 
-            if (data == null)
+            var exhibitionUpdate = _exhibitionsRepository.Update(exhibition);
+
+            if (exhibitionUpdate == null)
             {
                 return new ResponseModel<ExhibitionDomainModel>
 
@@ -214,6 +202,7 @@ namespace Museum.Domain.Service
             }
 
             _exhibitionsRepository.Save();
+
 
             ExhibitionDomainModel domainModel = new ExhibitionDomainModel()
             {
@@ -231,6 +220,8 @@ namespace Museum.Domain.Service
                 IsSuccessful = true,
                 DomainModel = domainModel
             };
+
         }
+
     }
 }

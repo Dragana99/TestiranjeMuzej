@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/1s8pH8LhGFzQbOz9FSC9/9QmwSNZnnvYFfYGJPhfsCREzgbB5T4J+0TeSXVyCaMoj/aJR0nHBXgmWbNAF7xXA==",
+  "dgSpecHash": "8Iwdaa3IPGxVcpdJrLzkiqPTWcDqe2KWDHKnqTcOJ7IQ+6xlnzameeVGbTEyYI+Xg+4VODuRqiOCv3ptPGsZ3Q==",
   "success": true,
-  "projectFilePath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj",
+  "projectFilePath": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.0.0\\microsoft.aspnetcore.authentication.jwtbearer.3.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authorization\\1.0.2\\microsoft.aspnetcore.authorization.1.0.2.nupkg.sha512",

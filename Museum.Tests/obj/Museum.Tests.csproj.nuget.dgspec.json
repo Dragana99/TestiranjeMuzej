@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Tests\\Museum.Tests.csproj": {}
+    "D:\\Cetvrta Godina\\IP Back\\Museum.Tests\\Museum.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj": {
+    "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj",
+        "projectUniqueName": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj",
         "projectName": "Museum.API",
-        "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj",
+        "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\obj\\",
+        "outputPath": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj": {
-                "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj"
+              "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj": {
+                "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Data\\Museum.Data.csproj": {
+    "D:\\Cetvrta Godina\\IP Back\\Museum.Data\\Museum.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Data\\Museum.Data.csproj",
+        "projectUniqueName": "D:\\Cetvrta Godina\\IP Back\\Museum.Data\\Museum.Data.csproj",
         "projectName": "Museum.Data",
-        "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Data\\Museum.Data.csproj",
+        "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Data\\Museum.Data.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Data\\obj\\",
+        "outputPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,14 +166,14 @@
         }
       }
     },
-    "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj": {
+    "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj",
+        "projectUniqueName": "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj",
         "projectName": "Museum.Domain",
-        "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj",
+        "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\obj\\",
+        "outputPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -194,8 +194,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Repositories\\Museum.Repositories.csproj": {
-                "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Repositories\\Museum.Repositories.csproj"
+              "D:\\Cetvrta Godina\\IP Back\\Museum.Repositories\\Museum.Repositories.csproj": {
+                "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Repositories\\Museum.Repositories.csproj"
               }
             }
           }
@@ -231,14 +231,14 @@
         }
       }
     },
-    "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Repositories\\Museum.Repositories.csproj": {
+    "D:\\Cetvrta Godina\\IP Back\\Museum.Repositories\\Museum.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Repositories\\Museum.Repositories.csproj",
+        "projectUniqueName": "D:\\Cetvrta Godina\\IP Back\\Museum.Repositories\\Museum.Repositories.csproj",
         "projectName": "Museum.Repositories",
-        "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Repositories\\Museum.Repositories.csproj",
+        "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Repositories\\Museum.Repositories.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Repositories\\obj\\",
+        "outputPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -259,8 +259,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Data\\Museum.Data.csproj": {
-                "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Data\\Museum.Data.csproj"
+              "D:\\Cetvrta Godina\\IP Back\\Museum.Data\\Museum.Data.csproj": {
+                "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Data\\Museum.Data.csproj"
               }
             }
           }
@@ -296,14 +296,14 @@
         }
       }
     },
-    "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Tests\\Museum.Tests.csproj": {
+    "D:\\Cetvrta Godina\\IP Back\\Museum.Tests\\Museum.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Tests\\Museum.Tests.csproj",
+        "projectUniqueName": "D:\\Cetvrta Godina\\IP Back\\Museum.Tests\\Museum.Tests.csproj",
         "projectName": "Museum.Tests",
-        "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Tests\\Museum.Tests.csproj",
+        "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Tests\\Museum.Tests.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Tests\\obj\\",
+        "outputPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -324,11 +324,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj": {
-                "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.API\\Museum.API.csproj"
+              "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj": {
+                "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.API\\Museum.API.csproj"
               },
-              "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj": {
-                "projectPath": "D:\\Cetvrta Godina\\TestiranjeGithub\\Museum.Domain\\Museum.Domain.csproj"
+              "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj": {
+                "projectPath": "D:\\Cetvrta Godina\\IP Back\\Museum.Domain\\Museum.Domain.csproj"
               }
             }
           }
